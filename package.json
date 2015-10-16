@@ -1,0 +1,34 @@
+{
+  "name": "final-project",
+  "version": "0.0.1",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srednakun/week8-enviornment-setup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srednakun/week8-enviornment-setup/issues"
+  },
+  "homepage": "https://github.com/srednakun/week8-enviornment-setup#readme",
+  "dependencies": {
+    "angular": "^1.4.7",
+    "angular-cookies": "^1.4.7",
+    "angular-route": "^1.4.7",
+    "body-parser": "^1.14.1",
+    "connect-livereload": "^0.5.3",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-ng-config": "^1.2.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-webserver": "^0.9.1",
+    "require-dir": "^0.3.0",
+    "vinyl-fs": "^2.2.0",
+    "webpack-stream": "^2.1.1"
+  }
+}
