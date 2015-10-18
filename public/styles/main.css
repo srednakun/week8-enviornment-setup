@@ -408,8 +408,7 @@ header {
   .header-nav ul {
     margin-top: 2.7em;
     margin-right: 1em;
-    display: block;
-    background: url("images/topMenuImages.png") repeat-x; }
+    display: block; }
   .header-nav li {
     display: inline-block;
     width: auto; }
@@ -418,28 +417,24 @@ header {
       font-size: 2em;
       text-decoration: none;
       margin-left: 1em;
-      cursor: pointer;
-      background: url("images/topMenuImages.png") 0px -30px no-repeat;
-      outline: none; }
+      cursor: pointer; }
     .header-nav li span {
       line-height: 30px;
       float: left;
       display: block;
-      padding-right: 15px;
-      background: url("images/topMenuImages.png") 100% -30px no-repeat; }
+      padding-right: 15px; }
 
-.menu li a:hover {
+.header-nav ul li a:hover {
   background-position: 0px -60px;
   color: #798ca7; }
 
-.menu li a:hover span {
+.header-nav ul li a:hover span {
   background-position: 100% -60px; }
 
-.menu li a.active, .menu li a.active:hover {
+.header-nav ul li a.active, .header-nav ul li a.active:hover {
   line-height: 30px;
-  font: 12px Verdana, Arial, Helvetica, sans-serif;
-  background: url("../images/topMenuImages.png") 0px -90px no-repeat;
+  background: url("/images/topMenuImages.png") 0px -90px no-repeat;
   color: #798ca7; }
 
-.menu li a.active span, .menu li a.active:hover span {
-  background: url("../images/topMenuImages.png") 100% -90px no-repeat; }
+.header-nav ul li a.active span, .header-nav ul li a.active:hover span {
+  background: url("/images/topMenuImages.png") 100% -90px no-repeat; }
